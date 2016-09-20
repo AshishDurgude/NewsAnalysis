@@ -1,0 +1,29 @@
+body{
+	background:url('slider_one.jpg');
+
+	}
+
+.glyphicon {  margin-bottom: 10px;margin-right: 10px; color:#ffffff;}
+
+small {
+display: block;
+line-height: 1.428571429;
+color: #999;
+}
+
+.well{
+	background-color:rgba(0,0,0,0.7);	
+}
+#default{ background-color:#000000;
+color:#ffffff;
+}
+#default i{ 
+color:#ffffff;
+}
+.container{
+	padding-top:40px;
+	
+}
+h3,i{
+	color:#ffffff;
+}

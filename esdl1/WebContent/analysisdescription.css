@@ -1,0 +1,67 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+html,body
+{
+		 background: url('blur1.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+}
+
+
+.nav {
+    padding-right: 50px; 
+	 padding-top: 0px;
+	 padding-bottom: -5px;
+}
+
+.thumbnail{
+	text-align:center;
+}
+
+.row {
+  margin: 0;
+}
+
+.articles {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.article {
+  color: #222;
+  background: rgba(255,255,255,.9);
+  border-spacing: 2px;
+  border-color: gray;
+  font-family: arial,sans-serif;
+  border-bottom: 1px #e5e5e5 solid;
+}
+
+.current .item {
+  background: rgba(206,220,206,.9);
+}
+
+.item {
+  cursor: pointer;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  
+}
+.item .title {
+  font-weight: bold;
+}
+.description {
+  display: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.description h1 {
+  margin-top: 0px;
+  font-size: 23px;
+}
+.thumbnail{
+	background-color:transparent;
+	border:8px;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Analysis Performance</title>
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="changes.css"></link>
+ <script type="text/javascript" src="canvasjs.min.js"></script>
+<script type="text/javascript">
+window.onload = function () {
+	var chart = new CanvasJS.Chart("chartContainer", {
+		theme: "theme2",//theme1
+		title:{
+			text: "News Analysis Results:"              
+		},
+		animationEnabled: true,   // change to true
+		data: [              
+		{
+			// Change type to "bar", "splineArea", "area", "spline", "pie",etc.
+			type: "column",
+			dataPoints: [
+				{ label: "India Times",  y: 12 },
+				{ label: "DNA", y: 30},
+				{ label: "Times Of India",  y: 65  }
+			]
+		}
+		]
+	});
+	chart.render();
+}
+</script>
+
+</head>
+<body>
+	<nav class="navbar navbar-inverse" role="navigation">
+			<div class="navbar-header">
+					<a class="navbar-brand" href="news.html">  <img src="MYLOGO1.png" alt=""></a>
+			</div>
+	<div>
+		<ul class="nav navbar-nav">
+			<li><a href="news1.html">Home</a></li>
+			<li class="active"><a href="#">Analysis</a></li>
+			<li><a href="#">About Us</a></li>
+		
+		</ul>
+			
+		</div>
+</nav>
+
+<div class="jumbotron">
+<div class="container">
+<h1> Welcome to News Analysis Performance Page </h1>
+</div>
+</div>
+
+<div class="Analysispage">
+<div class="container-fluid">
+<div class="col-xs-4">
+		<form action="basic12.jsp">
+    <input name="q1" value="submit" type="hidden"> 
+
+<h3>Select The Category</h3>
+ <tr>
+    <td valign="top">
+	 <select style="width:200px" class="tech" name="tech" id="tech" onchange="showValue(this)">
+		<option>------</option>     
+	 <option value="sports">Sports</option>
+      <option value="world">World</option>
+      <option value="entertainment">Entertainment</option>
+      <option value="technology">Technology</option>
+      <option value="crime">Crime</option>
+      <option value="money">Money</option>
+    </select>
+	  </td>
+  </tr>
+<input name="action" value="submit" type="hidden"> 
+<h3>Select The Newspaper</h3>
+<p>(To Compare)</p>
+
+ <tr>
+    <td valign="top">
+	 <select style="width:120px" class="tech" name="tech" id="tech" onchange="showValue(this)">
+	  <option>------</option>
+	  <option value="indiatimes">India Times</option>
+      <option value="dna">DNA</option>
+      <option value="timesofindia">Times Of India</option>
+    </select>
+	
+	 <select style="width:120px" class="tech" name="tech" id="tech" onchange="showValue(this)">
+	   <option>------</option>
+      <option value="indiatimes">India Times</option>
+      <option value="dna">DNA</option>
+      <option value="timesofindia">Times Of India</option>
+    </select>
+		
+	 <select style="width:120px" class="tech" name="tech" id="tech" onchange="showValue(this)">
+	   <option>------</option>
+      <option value="indiatimes">India Times</option>
+      <option value="dna">DNA</option>
+      <option value="timesofindia">Times Of India</option>
+    </select>
+		
+	  </td>
+  </tr>
+  <br>
+  <hr>
+    <input value="Start Analysis" class="btn btn-danger" type="submit">
+	
+    </form>
+</div>  
+<div class="col-xs-8"> 
+
+<div class="graphpaper">
+<div class="container">
+<div id="chartContainer" style="height: 400px; width: 60%;opacity:100.33;"></div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</body>
+
+</html>

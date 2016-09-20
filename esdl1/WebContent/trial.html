@@ -1,0 +1,57 @@
+<!doctype html>
+<html>	
+<head>
+</head>		
+
+<body>
+		<form action="basic12.jsp">
+    <input name="q1" value="submit" type="hidden"> 
+
+<h3>Select The Category</h3>
+ <tr>
+    <td valign="top">
+	 <select style="width:200px" class="tech" name="tech" id="tech" onchange="showValue(this)">
+		<option>------</option>     
+	 <option value="sports">Sports</option>
+      <option value="world">World</option>
+      <option value="entertainment">Entertainment</option>
+      <option value="technology">Technology</option>
+      <option value="crime">Crime</option>
+      <option value="money">Money</option>
+    </select>
+	  </td>
+  </tr>
+<input name="action" value="submit" type="hidden"> 
+<h3>Select The Newspaper</h3>
+<p>(To Compare)</p>
+
+ <tr>
+    <td valign="top">
+	 <select style="width:120px" class="tech" name="tech" id="tech" onchange="showValue(this)">
+	  <option>------</option>
+	  <option value="indiatimes">India Times</option>
+      <option value="dna">DNA</option>
+      <option value="timesofindia">Times Of India</option>
+    </select>
+	
+	 <select style="width:120px" class="tech" name="tech" id="tech" onchange="showValue(this)">
+	   <option>------</option>
+      <option value="indiatimes">India Times</option>
+      <option value="dna">DNA</option>
+      <option value="timesofindia">Times Of India</option>
+    </select>
+		
+	 <select style="width:120px" class="tech" name="tech" id="tech" onchange="showValue(this)">
+	   <option>------</option>
+      <option value="indiatimes">India Times</option>
+      <option value="dna">DNA</option>
+      <option value="timesofindia">Times Of India</option>
+    </select>
+		
+	  </td>
+  </tr>
+    <input value="Send email" input name="q1" class="btn btn-danger" type="submit">
+	
+    </form>
+	</body>
+	</html>

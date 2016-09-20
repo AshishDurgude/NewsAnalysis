@@ -1,0 +1,320 @@
+
+html,body
+{
+	  height: 100%;
+	width:100%;
+		 background: url('headingnewspaperwall.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.navbar-nav>li>.dropdown-menu {
+    margin-top:0px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+}
+.navbar-default .navbar-nav>li>a {
+    width:200px;
+    font-weight:bold;
+}
+.mega-dropdown {
+  position: static !important;
+  
+}
+
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+	background-color:#ffffff;
+}
+.mega-dropdown-menu:before {
+    content: "";
+    border-bottom: 15px solid #fff;
+    border-right: 17px solid transparent;
+    border-left: 17px solid transparent;
+    position: absolute;
+    top: -15px;
+    left: 335px;
+    z-index: 8;
+}
+.mega-dropdown-menu:after {
+    content: "";
+    border-bottom: 17px solid #ccc;
+    border-right: 19px solid transparent;
+    border-left: 19px solid transparent;
+    position: absolute;
+    top: -15px;
+    left: 335px;
+    z-index: 8;
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight:bold;
+  line-height: 1.428571429;
+  color: black;
+  white-space: normal;
+}
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+  color: #444;
+  background-color: #f5f5f5;
+  	
+}
+.mega-dropdown-menu .dropdown-header {
+  color: #428bca;
+
+  font-size: 28px;
+  font-weight:bold;
+}
+
+.mega-dropdown-menu .dropdown-header >li{
+	  padding: 20px 15px 15px;
+  border-left: 1px solid #eee; 
+}
+
+
+.jumbotron{
+    background: url('headingnewspaperwall.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: 100%;
+	width:100%;
+    padding-top: 150px;
+    
+    
+
+ 
+ 
+}
+ .navbar {
+     
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+.thumbnail{
+	background-color:transparent;
+		border-color:transparent;
+}
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+.jumbotron h1 {
+  text-align: center;
+  color: #000000;
+  font-family: ' Lato, Helvetica, Arial, sans-serif';
+   background: rgba(255,255,255,0.9);
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  
+}
+.jumbotron p{
+	margin-top:100px;
+color: #ffffff;
+   background: rgba(0,0,0,0.9);
+ font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+ 
+}
+
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  text-align: center;
+  background-color:#ffffff;
+}
+
+.supporting .col {
+  float: left;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.supporting img {
+  height: 80px;
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 50px;
+  margin-bottom: 40px;
+}
+.supporting a {
+  border: 1px solid #333333;
+  padding: 10px;
+}
+.supporting a:link, .supporting a:visited, .supporting a:hover, .supporting a:active {
+  color: black;
+  text-decoration: none;
+}
+.supporting{
+	  border: 2px solid #000000;
+	
+}
+.clearfix {
+  clear: both;
+}
+
+.Analysis p{
+color:#3D2966;
+font-weight: bold;
+  font-size: 24px;
+  	text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2);
+}
+.Analysis{
+  
+  
+    background: url('backgroundofanalysis1.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+  
+ 
+
+  
+}
+
+.Analysis thumbnail{
+padding:23px;
+}
+.Analysisinfo {
+  
+  
+  background: url('backgroundofanalysisinfo1.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+
+
+}
+
+.dropdown-menu {
+  font-size: 16px;
+  margin-top: 5px;
+  min-width: 105px;
+}
+
+.dropdown-menu li a {
+  color: #898989;
+  padding: 6px 20px;
+  font-weight: 300;
+}
+
+.Analysisinfo p{
+color:#aa0000;
+font-weight: bold;
+  font-size: 24px;
+    font-weight: 600;
+	text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2);
+}
+#readmore{
+	text-shadow: 4px 8px 8px rgba(0, 0, 0, 1.4);
+}
+.learn-more {
+  background-color: #000000;
+}
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.learn-more p{
+ color: #FFFFFF;
+
+}
+.learn-more ol{
+  display: inline;
+}
+#image2{
+	padding-top:20px;
+}
+.btn-main {
+	margin-top:90px;
+ margin-left:530px;
+  background-color: #434a54;
+  display: inline-block;
+ height:80px;
+ width: 80px;
+  border: 4px solid #000000;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: color 0.3s ease-out,
+              background-color 0.3s ease-out,
+              border-color 0.3s ease-out;
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+	text-align:center;
+}
+.btn-main:hover,
+.btn-main:active {
+	text-align:center;
+  background-color: #000000;
+  border-color: #434a54;
+  transition: color 0.3s ease-in,
+              background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+			    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.nav {
+    padding-right: 0px; 
+	 padding-top: 0px;
+	 padding-bottom: -5px;
+}
+
+.thumbnail-services{
+border-right:1px solid #fff000;
+
+}
+ .flush-col:last-child .thumbnail-services { 
+border-right: none; 
+}
+
+.thumbnail-services {
+	color:#000000;
+	padding:0px;
+}
